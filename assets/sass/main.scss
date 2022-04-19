@@ -1,0 +1,27 @@
+//main.scss archivo manifiesto
+
+//abstracts
+@import "../sass/abstract/variables";
+@import "../sass/abstract/mixins";
+
+//vemdors
+@import "../sass/vendors/bootstrap5//bootstrap.scss";
+
+//base
+@import "../sass/base/base";
+@import "../sass/base/reset";
+@import "../sass/base/typography";
+
+//components
+@import "../sass/components/buttons";
+@import "../sass/components/links";
+
+
+//layout
+
+@import "../sass/layout/header";
+@import "../sass/layout/main-section";
+@import "../sass/layout/footer";
+@import "../sass/layout/nav";
+@import "../sass/layout/pagination";
+@import "../sass/layout/profile";

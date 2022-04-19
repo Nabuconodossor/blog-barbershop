@@ -1,0 +1,11 @@
+/*MAIN START*/
+.main {
+    font-family: $roboto;
+    &__date {
+      padding-top: 2rem;
+    }
+    &__parragraph {
+      line-height: 2rem;
+      margin: 2rem 0;
+    }
+  }

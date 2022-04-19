@@ -1,0 +1,31 @@
+/*HEADER START*/
+.hero-section {
+    @include style-reset;
+    max-width: 100vw;
+    height: 95vh;
+    background-image: url(../img/post-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__title {
+      color: $white;
+      font-family: $playfair;
+      font-size: 6.5vw;
+      font-weight: $black;
+      font-style: italic;
+      text-shadow: $shadow;
+    }
+    &__icon {
+      position: relative;
+      top: 13rem;
+      color: $white;
+      font-size: $xx-large;
+      :hover {
+        color: $fuzzy-wuzzy;
+      }
+    }
+  }
+  
